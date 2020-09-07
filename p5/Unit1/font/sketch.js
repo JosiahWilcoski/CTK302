@@ -15,10 +15,10 @@ var f1;
 
     textFont(f); 
     textSize(60); 
-    text("Test1", width / 2, height / 2);   
+    text("Test1", width / 2, height / 2-25);   
 
     textFont(f1); 
     textSize(40); 
-    text("Test2", width / 2, height / 2-30);   
+    text("Test2", width / 2, height / 2+50);   
 
   } 
