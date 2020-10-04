@@ -13,7 +13,7 @@ function draw() {
   switch(state) {
 
     case 0:
-    background('red') ;
+    background('yellow') ;
     text("What's the best part of switzerland?", 250, 250, 350, 400) ;
 
     timer++ ;
