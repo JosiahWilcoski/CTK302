@@ -28,9 +28,9 @@ function draw() {
     background('blue') ;
     text("Well the flag is a big plus", 250, 250, 350, 400) ;
 
-        timer++ ;
+        timer = timer + 1 ;
 
-        if(time > 200) {
+        if(time > 30) {
           state = 0 ;
           timer = 0 ;
         }
