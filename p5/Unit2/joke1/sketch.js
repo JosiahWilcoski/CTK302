@@ -11,12 +11,12 @@ function draw() {
   switch (state) {
     case 0:
       background('purple');
-      text("Why", 250, 250) ;
+      text("Be there or be square", 250, 250) ;
       break;
 
     case 1:
       background('orange');
-      text("Because", 250, 250) ;
+      text("Because you won't be around", 250, 250) ;
       break;
   }
 

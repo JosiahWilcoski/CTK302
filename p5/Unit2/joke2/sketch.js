@@ -14,7 +14,7 @@ function draw() {
 
     case 0:
     background('red') ;
-    text("Why did the chicken cross the road?", 250, 250, 350, 400) ;
+    text("What's the best part of switzerland?", 250, 250, 350, 400) ;
 
     timer++ ;
 
@@ -26,7 +26,7 @@ function draw() {
 
     case 1:
     background('blue') ;
-    text("To get to the other side", 250, 250, 350, 400) ;
+    text("Well the flag is a big plus", 250, 250, 350, 400) ;
 
         timer++ ;
 
