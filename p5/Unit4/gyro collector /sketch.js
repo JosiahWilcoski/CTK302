@@ -4,6 +4,7 @@ Make sure you turn on orientation lock on your iPhone or Android device. */
 let alpha = 0, beta = 0 , gamma = 0; // gyroscope variables
 let x = 0.0, y = 0.0, z = 0.0 ; // accelerometer variables
 let bunnyImage;
+let space;
 let xPosition = 0;
 let yPosition = 0;
 
@@ -13,9 +14,11 @@ function setup() {
 
   createCanvas(windowWidth, windowHeight);
 
+  space = loadImage("assets/space.png");
   bunnyImage = loadImage("assets/ship.png");
   imageMode(CENTER);
   rectMode(CENTER);
+
 
 }
 
@@ -23,6 +26,7 @@ function draw() {
 
   background('#c6f5ff'); // light blue
 
+  image(space, 0, 0, windowWidth, windowHeight);
   // the map command !!!!
   // takes your variable and maps it from range 1 to range 2
   // map(yourVar, range1_x, range1_y, range2_x, range2_y) ;
@@ -35,7 +39,7 @@ function draw() {
 
   rotate(radians(alpha)); // rotate the bunny depending on the alpha intake
 
-  image(bunnyImage, width/2, height/2, 50, 50);
+  image(bunnyImage, 0, 0, 75, 125);
   // rect(0, 0, 100, 100) ;
   pop();
 
