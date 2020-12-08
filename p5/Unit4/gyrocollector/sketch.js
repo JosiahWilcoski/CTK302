@@ -149,7 +149,7 @@ function mouseReleased() {
 
     case 2:
       resetTheGame();
-      state = 0;
+      state = 1;
       break;
 
   }
